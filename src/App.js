@@ -1,5 +1,3 @@
-//https://tns4lpgmziiypnxxzel5ss5nyu0nftol.lambda-url.us-east-1.on.aws/ramp-challenge-instructions/
-
 import "./styles.css";
 import { useEffect, useState } from "react";
 import { Typewriter } from "./components/Typewriter";
