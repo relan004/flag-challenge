@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+h1,
+h2 {
+  margin: 0;
+}
+h1 {
+  margin-bottom: 2rem;
+}
+h2 {
+  margin-bottom: 1rem;
+}
+ul {
+  padding: 0 0 0 1rem;
+}
+hr {
+  margin: 2rem 0;
+}
+
+.flex {
+  display: flex;
+}
+.flex > div {
+  flex-basis: 50%;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.text-center {
+  text-align: center;
+}
+
+/* Flag: string variant */
+.flag--string::after {
+  content: "";
+  width: 1px;
+  height: 1rem;
+  background: #000;
+  display: inline-block;
+  margin-left: 1px;
+  animation: cursor-blink 1.5s steps(2) infinite;
+}
+@keyframes cursor-blink {
+  0% {
+    opacity: 0;
+  }
+}
+
+/* Flag: list variant */
+.flag--list {
+  text-align: left;
+  max-width: min-content;
+  margin: 0 auto;
+}
